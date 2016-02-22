@@ -48,14 +48,14 @@ directory '/var/www/html//bawarchi/tiffins' do
  action :create
 end
 remote_file '/var/www/html/bawarchi/meals/biryani' do
- source 'https://s3-us-west-1.amazonaws.com/ashishbucket-bucket/meals/biryani'
+ source 'https://s3-us-west-1.amazonaws.com/ashishbucket/Meals/Biryani'
  owner 'bawarchi'
  group 'bawarchi'
  mode '0755'
  action :create
 end
 remote_file '/var/www/html/bawarchi/tiffins/dosa' do
- source 'https://s3-us-west-1.amazonaws.com/ashishbucket-bucket/tiffins/dosa'
+ source 'https://s3-us-west-1.amazonaws.com/ashishbucket/Tiffins/Dosa'
  owner 'bawarchi'
  group 'bawarchi'
  mode '0755'
