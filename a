@@ -1,3 +1,3 @@
 git add . --all
 git commit -m test
-git push origin master https://vvash94:Kyloren1994!@github.com/vvash94/awesome_customers.git
+git push < key
